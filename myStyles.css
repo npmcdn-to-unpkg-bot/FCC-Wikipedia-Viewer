@@ -1,0 +1,95 @@
+body {
+  font-family: Montserrat;
+  visibility: hidden;
+  width: auto;
+  height: 100%;
+  background-repeat: repeat;
+  color: white;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.grid-item {
+  margin: 5px;
+  padding: 50px;
+  width: 400px;
+  height: auto;
+  word-wrap: break-word;
+  background-color: rgba(41, 85, 111, .7);
+  border-radius: 10px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.grid-item h2 {
+  color: white;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.grid-item p {}
+
+.grid-item a {
+  color: rgb(151, 212, 243);
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.grid-item img {
+  height: 100px;
+  width: auto;
+}
+
+#searchDiv {
+  border-bottom: solid 2px white;
+  color: white;
+}
+
+#searchDiv h1 {
+  text-shadow: 3px 3px 5px #000000;
+}
+
+#wikiText {
+  text-shadow: 3px 2px 5px #71caf7;
+}
+
+#searchDiv h3 {
+  font-style: italic;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+#searchBox {
+  font-size: 18px;
+  color: green;
+  border-radius: 5px;
+}
+
+#randomizeButton {
+  border: solid 1px white;
+  border-radius: 5px;
+}
+
+#wikiCardsDiv {
+  margin-top: 20px;
+}
+
+
+/* MOBILE LARGE 600 */
+
+@media screen and (max-width: 600px) {}
+
+
+/* MOBILE SMALL 480 */
+
+@media screen and (max-width: 480px) {
+  .grid-item {
+    width: 300px;
+  }
+  #searchDiv h1 {
+    font-size: 1.8em;
+  }
+  #searchDiv h3 {
+    font-size: 1.4em;
+  }
+}

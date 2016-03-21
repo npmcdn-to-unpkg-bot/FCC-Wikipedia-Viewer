@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>FreeCodeCamp Wikipedia Viewer</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="myStyles.css" />
+</head>
+
+
+<body background="images/coffeebeans.jpg">
+  <div class="fluid-container text-center">
+    <div id="searchDiv">
+      <br/>
+      <h1><span id = "wikiText">WIKI</span> ME UP<h1>
+        <h1>BEFORE YOU GO GO</h1>
+      <h3>the better way to wiki</h3>
+      <br/><br/>
+      <div class="ui-widget">
+        <input id="searchBox" oninput=functionOnInput() onchange=functionOnChange() placeholder="search for..." />
+        <br/>
+      </div>
+      <h3>or...</h3><br/>
+      <p><a id="randomizeButton" class="btn btn-success" role="button">Get Random Wiki</a></p><br/>
+    </div>
+    <div id="wikiCardsDiv" class="grid">
+      <div id="wikiCard00" class="grid-item">
+        <img id="img00" src="" alt="" />
+        <h2 id="title00"></h2>
+        <p id="card00">Wiki me up...</p>
+        <a id="link00" href="" target="_blank"></a>
+      </div>
+      <div id="wikiCard01" class="grid-item">
+        <img id="img01" src="" alt="" />
+        <h2 id="title01"></h2>
+        <p id="card01">Wiki me up...</p>
+        <a id="link01" href="" target="_blank"></a>
+      </div>
+      <div id="wikiCard02" class="grid-item">
+        <img id="img02" src="" alt="" />
+        <h2 id="title02"></h2>
+        <p id="card02">Wiki me up...</p>
+        <a id="link02" href="" target="_blank"></a>
+      </div>
+      <div id="wikiCard03" class="grid-item">
+        <img id="img03" src="" alt="" />
+        <h2 id="title03"></h2>
+        <p id="card03">Wiki me up...</p>
+        <a id="link03" href="" target="_blank"></a>
+      </div>
+      <div id="wikiCard04" class="grid-item">
+        <img id="img04" src="" alt="" />
+        <h2 id="title04"></h2>
+        <p id="card04">Wiki me up...</p>
+        <a id="link04" href="" target="_blank"></a>
+      </div>
+      <div id="wikiCard05" class="grid-item">
+        <img id="img05" src="" alt="" />
+        <h2 id="title05"></h2>
+        <p id="card05">Wiki me up...</p>
+        <a id="link05" href="" target="_blank"></a>
+      </div>
+      <div id="wikiCard06" class="grid-item">
+        <img id="img06" src="" alt="" />
+        <h2 id="title06"></h2>
+        <p id="card06">Wiki me up...</p>
+        <a id="link06" href="" target="_blank"></a>
+      </div>
+      <div id="wikiCard07" class="grid-item">
+        <img id="img07" src="" alt="" />
+        <h2 id="title07"></h2>
+        <p id="card07">Wiki me up...</p>
+        <a id="link07" href="" target="_blank"></a>
+      </div>
+      <div id="wikiCard08" class="grid-item">
+        <img id="img08" src="" alt="" />
+        <h2 id="title08"></h2>
+        <p id="card08">Wiki me up...</p>
+        <a id="link08" href="" target="_blank"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <!-- Bootstrap -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Masonry js for grid layout -->
+  <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+  <!-- My JavaScript -->
+  <script type="text/javascript" src="myJS.js"></script>
+
+</body>
+
+</html>
