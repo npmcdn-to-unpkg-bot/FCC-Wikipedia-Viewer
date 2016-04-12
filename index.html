@@ -14,22 +14,22 @@
 </head>
 
 
-<body background="images/coffeebeans.jpg">
+<body>
   <div class="fluid-container text-center">
-    <div id="searchDiv">
+    <div class="searchDiv">
       <br/>
-      <h1><span id = "wikiText">WIKI</span> ME UP<h1>
+        <img class="logoImg" src="images/Wikipedia-logo-v2.svg.png"></img>
+        <h1><span id = "wikiText">WIKI</span> ME UP<h1>
         <h1>BEFORE YOU GO GO</h1>
-      <h3>the better way to wiki</h3>
       <br/><br/>
       <div class="ui-widget">
         <input id="searchBox" oninput=functionOnInput() onchange=functionOnChange() placeholder="search for..." />
         <br/>
       </div>
       <h3>or...</h3><br/>
-      <p><a id="randomizeButton" class="btn btn-success" role="button">Get Random Wiki</a></p><br/>
+      <p><button id="randomizeButton" class="myButton">Get Random Wiki</button></p><br/>
     </div>
-    <div id="wikiCardsDiv" class="grid">
+    <div id="wikiCardsDiv" class="grid cardsDiv">
       <div id="wikiCard00" class="grid-item">
         <img id="img00" src="" alt="" />
         <h2 id="title00"></h2>

@@ -1,10 +1,23 @@
 body {
   font-family: Montserrat;
   visibility: hidden;
-  width: auto;
-  height: 100%;
-  background-repeat: repeat;
-  color: white;
+  background-color: rgb(192, 208, 217);
+    color: black;
+  color: rgb(0, 118, 255);
+}
+
+.logoImg {
+    width: 300px;
+    height: auto;
+}
+
+.myButton {
+    width: 200px;
+    height: 50px;
+    font-size: 1.2em;
+    background-color: rgb(232, 232, 232);
+  color: rgb(0, 118, 255);
+    border: solid 1px rgb(0, 118, 255);
 }
 
 .grid {
@@ -17,23 +30,15 @@ body {
   width: 400px;
   height: auto;
   word-wrap: break-word;
-  background-color: rgba(41, 85, 111, .7);
+  background-color: rgba(255, 255, 255, .6);
   border-radius: 10px;
-  color: whitesmoke;
-  text-shadow: 2px 2px 5px #000000;
+  color: rgb(0, 118, 255);
 }
-
-.grid-item h2 {
-  color: white;
-  text-shadow: 2px 2px 5px #000000;
-}
-
-.grid-item p {}
 
 .grid-item a {
-  color: rgb(151, 212, 243);
+  color: rgb(84, 199, 252);
   text-decoration: underline;
-  text-shadow: 2px 2px 5px #000000;
+    font-style: italic;
 }
 
 .grid-item img {
@@ -41,22 +46,25 @@ body {
   width: auto;
 }
 
-#searchDiv {
-  border-bottom: solid 2px white;
-  color: white;
+.searchDiv {
+    border-bottom: solid 2px white;
 }
 
-#searchDiv h1 {
-  text-shadow: 3px 3px 5px #000000;
+.cardsDiv {
+    background-image: url(images/Wikipedia-logo-transparent-200px.png);
+    width: auto;
+    height: 100%;
+    background-repeat: repeat;
+  background-color: rgb(192, 208, 217);
 }
 
-#wikiText {
-  text-shadow: 3px 2px 5px #71caf7;
+.searchDiv h1 {
+    font-size: 3.5em;
+    
 }
 
-#searchDiv h3 {
+.searchDiv h3 {
   font-style: italic;
-  text-shadow: 2px 2px 5px #000000;
 }
 
 #searchBox {
